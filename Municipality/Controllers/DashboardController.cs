@@ -9,9 +9,5 @@ namespace Municipality.Controllers
     public class DashboardController : Controller
     {
         public IActionResult Average() => View();
-
-        public IActionResult Chart() => View();
-        
-        public IActionResult Diagram() => View();
     }
 }
